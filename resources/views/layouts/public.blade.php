@@ -109,7 +109,7 @@
 
             <div class="row">
                 <div class="mb-4 col-12">
-                    <img src="{{ isset($company)?$company->light_logo_url:global_setting()->light_logo_url }}" class="rounded height-35">
+                    <img src="{{ isset($company)?$company->light_logo_url:global_setting()->light_logo_url }}" class="rounded height-44">
                     <div class="mt-2 f-12 text-dark-grey">{{  isset($company)?$company->company_name:global_setting()->global_app_name }}</div>
                 </div>
             </div>

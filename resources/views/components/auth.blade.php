@@ -59,7 +59,7 @@
     class="{{ $globalSetting->auth_theme == 'dark' ? 'dark-theme' : '' }} {{ isRtl() ? (session('changedRtl') === false ? '' : 'rtl') : (session('changedRtl') == true ? 'rtl' : '') }}">
 
 <header class="px-4 bg-white sticky-top d-flex justify-content-center align-items-center login_header">
-    <img class="mr-2 rounded" src="{{ $globalSetting->logo_url }}" alt="Logo"/>
+    <img class="mr-2 rounded height-44" src="{{ $globalSetting->logo_url }}" alt="Logo"/>
     @if ($globalSetting->sidebar_logo_style != 'full')
         <h3 class="mb-0 pl-1 {{ $globalSetting->auth_theme_text == 'light' ? ($globalSetting->auth_theme == 'dark' ? 'text-dark' : 'text-white') : '' }}">{{ $globalSetting->global_app_name ?? $globalSetting->app_name }}</h3>
     @endif

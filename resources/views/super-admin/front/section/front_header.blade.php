@@ -5,7 +5,7 @@
                 <button class="topbar-toggler">&#9776;</button>
                 <a class="topbar-brand" href="{{ route('front.home') }}">
                     <div class="d-flex align-items-center">
-                        <img class="mr-2 ml-10 rounded logo-default" style="max-height: 32px;" src="{{ global_setting()->logo_front_url }}" alt="Logo"/>
+                        <img class="mr-2 ml-10 rounded logo-default" style="max-height: 40px;" src="{{ global_setting()->logo_front_url }}" alt="Logo"/>
                     </div>
                 </a>
             </div>
